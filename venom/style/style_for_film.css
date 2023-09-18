@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1480px;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+
+/* style for header */
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 52px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header ul li a {
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* style for main */
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: white;
+    opacity: 80%;
+}
+
+main h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    opacity: 80%;
+}
+.text_top p{
+    margin-top: 25px;
+    width: 423px;
+    margin-bottom: 30px;
+}
+.text_top h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    opacity: 80%;
+}
+.text_left_under{
+    position: relative;
+}
+.text_left_under button{
+    position: absolute;
+    top: 40%;
+    left: 160px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* style for text_under */
+.text_under_text{
+    margin-top: 15px;
+    display: flex;
+    gap: 65px;
+    margin-bottom: 33px;
+}
+.text_under_text_left{
+    display: flex;
+    flex-direction: column;
+}
+/* style for text_rigth*/
+.text_rigth img{
+    border-radius: 5px;
+}
+.text_rigth{
+    display: flex;
+    gap: 30px;
+}
+.text_rigth_text_info h2{
+    margin-bottom: 5px;
+}
+.text_rigth_text_info{
+    margin-bottom: 20px;
+}
